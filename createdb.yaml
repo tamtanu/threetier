@@ -35,6 +35,7 @@
         instance_type: db.m1.small
         username: mysql_admin
         password: 1nsecure
+        db_name: userdb
         subnet: dbsubnet
         license_model: "general-public-license"
         vpc_security_groups: "{{ dbsg.group_id }}"
